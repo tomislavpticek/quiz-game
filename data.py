@@ -1,0 +1,51 @@
+question_data = [
+    {"text": "A slug's blood is green.", "answer": "True"},
+    {"text": "The loudest animal is the African Elephant.", "answer": "False"},
+    {"text": "Approximately one quarter of human bones are in the feet.", "answer": "True"},
+    {"text": "The total surface area of a human lungs is the size of a football pitch.", "answer": "True"},
+    {"text": "In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to "
+             "eat.", "answer": "True"},
+    {"text": "In London, UK, if you happen to die in the House of Parliament, you are entitled to a state funeral.",
+     "answer": "False"},
+    {"text": "It is illegal to pee in the Ocean in Portugal.", "answer": "True"},
+    {"text": "You can lead a cow down stairs but not up stairs.", "answer": "False"},
+    {"text": "Google was originally called 'Backrub'.", "answer": "True"},
+    {"text": "Buzz Aldrin's mother's maiden name was 'Moon'.", "answer": "True"},
+    {"text": "No piece of square dry paper can be folded in half more than 7 times.", "answer": "False"},
+    {"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"}
+]
+
+new_set = [
+    {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "In the 1988 film Akira, Tetsuo ends up destroying Tokyo.",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"]
+    },
+    {"category": "Geography", "type": "boolean", "difficulty": "medium",
+     "question": "The flag of South Africa features 7 colours.", "correct_answer": "False",
+     "incorrect_answers": ["True"]}, {"category": "General Knowledge", "type": "boolean", "difficulty": "easy",
+                                      "question": "Bulls are attracted to the color red.",
+                                      "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "History", "type": "boolean", "difficulty": "easy",
+     "question": "Former United States Presidents John Adams and Thomas Jefferson died within hours of each other.",
+     "correct_answer": "True", "incorrect_answers": ["False"]},
+    {"category": "History", "type": "boolean", "difficulty": "hard",
+     "question": "The Battle of Trafalgar took place on October 23rd, 1805", "correct_answer": "False",
+     "incorrect_answers": ["True"]}, {"category": "Science: Computers", "type": "boolean", "difficulty": "easy",
+                                      "question": "Linux was first created as an alternative to Windows XP.",
+                                      "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Celebrities", "type": "boolean", "difficulty": "hard",
+     "question": "Lady Gaga's real name is Stefani Joanne Angelina Germanotta.", "correct_answer": "True",
+     "incorrect_answers": ["False"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "easy",
+     "question": "Metal Gear Solid 3: Snake Eater was released in 2004.", "correct_answer": "True",
+     "incorrect_answers": ["False"]},
+    {"category": "Entertainment: Japanese Anime & Manga", "type": "boolean", "difficulty": "hard",
+     "question": "The character Plum from No Game No Life is a girl.", "correct_answer": "False",
+     "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Television", "type": "boolean", "difficulty": "easy",
+     "question": "The Simpsons family is named after creator Matt Groening's real family.",
+     "correct_answer": "True", "incorrect_answers": ["False"]}]
